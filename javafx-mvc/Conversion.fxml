@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="559.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="181.0" layoutY="40.0" text="Transformação de m² ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField id="textFieldMetrosQuadrados" fx:id="textFieldMetrosQuadrados" layoutX="205.0" layoutY="103.0" promptText=" metros ²" />
+      <Label layoutX="214.0" layoutY="80.0" text="Fazenda em m²">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Button id="buttonCalcular" layoutX="54.0" layoutY="130.0" mnemonicParsing="false" onAction="#botaoCalcularClicado" text="Calcular" />
+      <Button id="buttonLimpar" layoutX="456.0" layoutY="130.0" mnemonicParsing="false" onAction="#botaoLimparClicado" text="Limpar" />
+      <Label layoutX="68.0" layoutY="183.0" text="Hectare:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label id="labelResultadoHectares" fx:id="labelResultadoHectares" layoutX="120.0" layoutY="183.0" text="INFORME A METRAGEM" />
+      <Label layoutX="265.0" layoutY="183.0" text="Alqueire:">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label id="labelResultadoAlqueires" fx:id="labelResultadoAlqueires" layoutX="324.0" layoutY="183.0" text="INFORME A METRAGEM" />
+   </children>
+</Pane>
+

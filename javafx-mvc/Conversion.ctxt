@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Conversion
+comment0.text=\r\n\ Transforma\u00E7\u00E3o\ de\ m\u00B2\ em\ alqueire\ e\ hectare\r\n\ \r\n\ @author\ mariadutra\ \r\n\ @version\ 0.01\r\n
+comment1.params=
+comment1.target=Conversion()
+comment2.params=metrosQuadrados
+comment2.target=Conversion(double)
+comment2.text=\r\n\ Construtor\ para\ objetos\ da\ classe\ CalculadoraIMC\r\n
+comment3.params=
+comment3.target=double\ metrosParaHectares()
+comment3.text=\r\n\ Calcula\ o\ m\u00B2\ em\ hectare\r\n
+comment4.params=
+comment4.target=double\ metrosParaAlqueires()
+numComments=5

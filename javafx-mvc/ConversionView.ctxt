@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ConversionView
+comment0.text=\r\n\ Interface\ Gr\u00E1fica\ (GUI)\ trasforma\u00E7\u00E3o\ de\ m\u00B2\r\n\ \r\n\ @authora\ mariadutra19\r\n\ @version\ 0.01\r\n
+comment1.params=
+comment1.target=ConversionView()
+comment2.params=controller
+comment2.target=void\ setController(ConversionController)
+comment3.params=primaryStage
+comment3.target=void\ start(javafx.stage.Stage)
+numComments=4
